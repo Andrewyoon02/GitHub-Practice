@@ -30,7 +30,6 @@ set.seed(4)
 random_numbers4 <- rgeom(100, 1, 0.25)
 
 saveRDS(
-  random_numbers4, file = "output/random_numbers4.rds")
-
-#Binomial Fix New
-
+  random_numbers5, 
+  file = here::here("output", "random_numbers5.rds")
+)
